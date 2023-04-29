@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    //<!CDATA[
+    var pic = [];
+    pic[0] = "zhaopian/u71.png";
+    pic[1] = "zhaopian/u71.png";
+    pic[2] = "images/转国官方网站/u8.png";
+    pic[3] = "images/转国官方网站/u8.png";
+
+    var randomBgIndex = Math.round( Math.random() * 3 );
+
+    //输出随机的背景图
+    //document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+    document.write("<img src=" + pic[randomBgIndex] + " width='300'>")
+    //]]>
+</script>
+</body>
+</html>
