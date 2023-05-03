@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>祝蒋浩彬生日快乐！</title>
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        font-size: 72px;
+        margin-top: 100px;
+        text-shadow: 2px 2px #ccc;
+      }
+      p {
+        color: #666;
+        font-size: 36px;
+        margin-top: 50px;
+        text-shadow: 2px 2px #ccc;
+      }
+      .cake {
+        position: relative;
+        margin-top: 100px;
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 20px #ccc;
+        overflow: hidden;
+      }
+      .candle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 200px;
+        background-color: #f00;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #f00;
+      }
+      .flame {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 80px;
+        background-color: #f00;
+        border-radius: 50%;
+        box-shadow: 0 0 20px #f00, 0 0 40px #f00, 0 0 60px #f00;
+        animation: flame 1s ease-in-out infinite alternate;
+      }
+      .balloon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 150px;
+        background-color: #ff0;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #ff0;
+        animation: balloon 1s ease-in-out infinite alternate;
+      }
+      .ribbon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        width: 100px;
+        height: 20px;
+        background-color: #f00;
+        box-shadow: 0 0 10px #f00;
+        animation: ribbon 1s ease-in-out infinite alternate;
+      }
+      @keyframes flame {
+        0% {
+          transform: translateX(-50%) scaleY(1);
+          opacity: 1;
+        }
